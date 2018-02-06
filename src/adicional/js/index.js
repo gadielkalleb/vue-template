@@ -1,8 +1,8 @@
 $(function () {
-  $('.parallax').parallax();
-  $(".dropdown-button").dropdown({
-    hover: true
-  });
+  // $('.parallax').parallax();
+  // $(".dropdown-button").dropdown({
+  //   hover: true
+  // });
   // $('.carousel.carousel-slider').carousel({
   //   fullWidth: true
   // }, autoPlay());

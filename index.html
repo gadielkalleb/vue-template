@@ -8,7 +8,8 @@
 
   <!--Materialize Styles-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection"
+  />
   <link rel="stylesheet" href="./src/adicional/css/style.css">
 
 </head>
@@ -21,6 +22,23 @@
   <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script src="./src/adicional/js/index.js"></script>
   <script src="dist/build.js"></script>
+
+  <script>
+    $('.parallax').parallax();
+    $(".dropdown-button").dropdown({
+      hover: true
+    });
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    }, autoPlay());
+
+
+    //  faz o carousel deslizar sozinho
+    function autoPlay() {
+      $('.carousel').carousel('next');
+      setTimeout(autoPlay, 4500);
+    }
+  </script>
 </body>
 
 </html>
