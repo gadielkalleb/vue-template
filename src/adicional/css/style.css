@@ -1,0 +1,38 @@
+body{
+    /* background: black; */
+}
+
+#menu a#logo {
+    font-size: 40px;
+}
+
+#menu ul li > a {
+    font-size: 20px;
+}
+
+.parallax-container > .parallax > .img-parallax{
+    filter: blur(3px);
+    filter: brightness(50%);
+    filter: contrast(60%);
+}
+
+div#box-titulo-legenda h4.legenda {
+    border: 1px solid white;
+} 
+
+section#section-conteudo{
+    /* background: url('../img/fundoconteudo1.jpg'); */
+}
+
+
+section#destaques #cartao1,
+section#destaques #cartao2,
+section#destaques #cartao3,
+section#destaques #cartao4 {
+    background: url("http://lorempixel.com/g/400/200");
+    height: 300px;
+}
+
+nav#categorias a.select-categoria{
+    color: black;
+}
